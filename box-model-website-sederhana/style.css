@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style */
+
+body {
+	font: 16/28px;
+	font-family: 'Poppins', sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+}
+
+/* HEADER */
+.header {
+	padding: 20px;
+}
+
+.header h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-right: 10px;
+
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+
+.header a:hover {
+	color: blue;
+}
+
+/* HERO */
+
+.hero{
+	height: 350px;
+	overflow: hidden;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid salmon;
+}
+
+.hero img {
+	width: 100%;
+	height: auto;
+	
+}
+
+.content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.content h2 {
+	margin-top: .75rem;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.content .penulis {
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 5px;
+}
+
+.content .penulis a {
+	text-decoration: none;
+	color: salmon;
+}
+
+.content p {
+	font-family: Arial, sans-serif;
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/* Footer */
+
+.footer {
+	background-color: #333;
+	padding: 20px;
+}
+
+.footer .copy {
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+}
